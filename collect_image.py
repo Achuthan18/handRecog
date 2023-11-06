@@ -25,7 +25,7 @@ for j in range(number_of_classes):
         cv2.putText(frame, 'Ready? Press "Q" ! :)', (100, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 255, 0), 3,
                     cv2.LINE_AA)
         cv2.imshow('frame', frame)
-        if cv2.waitKey(25) == ord('q'):
+        if cv2.waitKey(40) == ord('q'):
             break
 
     counter = 0
